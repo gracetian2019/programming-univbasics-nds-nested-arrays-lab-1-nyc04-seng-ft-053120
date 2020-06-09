@@ -41,11 +41,8 @@ end
 def matrix_lookup(matrix, row, column)
   # Given any matrix (array of arrays), a row index and a column index, 
   # Return the matrix's content at that row and and column
- retuen matrix_lookup(assembled_matrix,row,column)
-  matrix_lookup(sorted_matrix,row,column)
-  
-  
-
+ return matrix_lookup(assembled_matrix,row,column) =assembled_matrix
+ return matrix_lookup(sorted_matrix,row,column)
   
 end
 
